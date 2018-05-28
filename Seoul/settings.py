@@ -121,8 +121,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "attractions/static"),
+    os.path.join(BASE_DIR, "attractions/../static"),
     'path_to_static_directory/static/',
 ]
+
+STATIC_ROOT = "home/fergalpowell/seoul-attractions/static"
 
 STATIC_URL = '/static/'
