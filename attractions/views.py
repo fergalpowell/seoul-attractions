@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
 import csv
-from geojson import Feature, FeatureCollection, Point
 from django.http import HttpResponse, JsonResponse
 from django.template.loader import get_template
 from django.views.decorators.csrf import csrf_exempt
-from collections import OrderedDict
 
 
 def load_map(request):

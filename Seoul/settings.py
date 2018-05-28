@@ -38,9 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.gis',
-    'djgeojson',
-    'geojson',
-    'leaflet',
     'attractions'
 ]
 
