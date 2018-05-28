@@ -18,7 +18,7 @@ def load_attractions(request):
         'type': 'FeatureCollection',
         'features': []
     }
-    with open('locations.csv', 'r') as csv_file:
+    with open('/home/fergalpowell/fergalpowell.pythonanywhere.com/attractions/locations.csv', 'r') as csv_file:
         reader = csv.reader(csv_file, delimiter=',')
         for row in reader:
             geojson['features'].append({
